@@ -1,0 +1,25 @@
+.Legal-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 90vmin;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.Legal-content h1 {
+  text-align: center;
+  font-size: 3.5em;
+  margin: 1em 0;
+}
+
+.Legal-content h2 {
+  font-size: 1.5em;
+  margin: 0.8em 0 0.6em 0;
+  color: #00AA95;
+}
+
+.Legal-content h3{
+  font-size: 1.2em;
+  margin: 0.6em 0 0.4em 0;
+}

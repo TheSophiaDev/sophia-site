@@ -1,0 +1,138 @@
+.Home-header {
+  opacity: 0%;
+  animation-name: home-header;
+  animation-duration: 1ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3.9s;
+}
+
+@keyframes home-header {
+  0% {opacity: 0%;}
+  100% {opacity: 100%}
+}
+
+
+.Home-content, .Home-start {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  position: fixed;
+}
+
+.Home-content {
+  animation-name: home-slider;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  opacity: 0%;
+  animation-delay: 5s;
+}
+
+.Home-carousel {
+  position: fixed;
+  white-space: nowrap;
+}
+
+.Home-carousel-item {
+}
+
+.active-scroll-spy {
+  visibility: visible;
+}
+
+.Home-carousel-text {
+  position: fixed;
+  left: 35%;
+  right: 35%;
+  bottom: 15%
+}
+
+.Home-carousel-text a {
+  text-shadow: 5px 5px 10px black;
+  color: white;
+  text-decoration: none;
+}
+
+.Home-carousel-text a:hover {
+  color: rgba(255,255,255,.55);
+}
+
+.Home-svg {
+  width: auto;
+  height: 60vmin;
+  position: fixed;
+  left: 35%;
+  right: 35%;
+  bottom: 25%
+}
+
+.carousel-indicators {
+  position: fixed;
+  bottom: 5%;
+}
+
+.Home-svg-start {
+  width: auto;
+  height: 100vmin;
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  animation-name: svg-start;
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.Home-me-title {
+  text-shadow: 7px 7px 10px black;
+  position: fixed;
+  bottom: 50%;
+  left: 15%;
+  right: 15%;
+  color: white;
+  animation-name: me-title;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+.Home-me-title h1 {
+  font-size: calc(10px + 10vmin);
+  white-space: nowrap;
+}
+
+.Home-skill-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.Home-skill-icons i {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.5em;
+  color: rgba(255,255,255,.55);
+  padding-top: 1rem;
+}
+
+@keyframes svg-start {
+  0% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
+@keyframes me-title {
+  0% {bottom: 50%; left: 15%; right: 15%; transform: scale3d(1, 1, 1); opacity: 100%;}
+  99% {bottom: 90%; left: 4%; right: 66%; transform: scale3d(0.19, 0.19, 0); opacity: 100%;}
+  100% {bottom: 90%; left: 2%; right: 66%; transform: scale3d(0.2, 0.2, 0); opacity: 0%;}
+}
+
+@keyframes home-slider {
+  0% {opacity: 0%;}
+  100% {opacity: 100%}
+}

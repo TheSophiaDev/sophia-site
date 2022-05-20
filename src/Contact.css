@@ -1,0 +1,118 @@
+
+.Contact-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 90vmin;
+  justify-content: space-around;
+  text-align: center;
+}
+
+ .Contact-content h1 {
+   font-size: 5em;
+   margin-top: 0.6em;
+ }
+
+ .Contact-content p {
+   font-size: 1.3em;
+ }
+
+.Contact-form {
+  width: 65%;
+}
+
+.Contact-form input {
+  font-size: 1.3rem;
+  padding: 0.5rem 0.75rem;
+  margin: 0.6rem 0;
+
+}
+
+.row {
+  margin-top: 0;
+}
+
+#Contact-message {
+  padding-bottom: 6rem;
+  margin-top: 1.2rem;
+}
+
+.form-control {
+  background-color: #2C3237;
+  color: white;
+  border-color: #2C3237;
+}
+
+.form-control:focus {
+  background-color: #2C3237;
+  color: white;
+  border-color: #2C3237;
+  border-bottom-color: #00AA95;
+  border-bottom-width: 3px;
+  box-shadow: 0 0 0 0;
+}
+
+.form-check, .form-check-label {
+  margin: 0.6rem 0;
+  color: white;
+}
+
+.form-check {
+  display: flex;
+}
+
+.form-switch, .form-check-input {
+  margin-left: -1em !important;
+}
+
+#custom-switch {
+  margin-right: 1em;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #00AA95;
+  background-image: url(./img/circle-blue.svg);
+}
+
+#custom-switch:checked {
+  background-color: #00AA95;
+  border-color: #00AA95;
+  background-image: url(./img/circle-grey.svg);
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 0;
+  border-color: #00AA95;
+  outline-color: #00AA95;
+}
+
+.Contact-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#Contact-submit, .Contact-social-btn {
+  border-color: rgba(255,255,255,.55);
+  border-width: 2px;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+}
+
+#Contact-submit:hover, .Contact-social-btn:hover {
+  border-color: #00AA95;
+  background-color: #00AA95;
+  color: #2C3237;
+}
+
+.Contact-social-btns {
+  margin: 2em 0 1.5em 0;
+}
+
+.Contact-social-btn {
+  font-variant: small-caps;
+  margin: 0 1em;
+}
+
+.Contact-social-btn i {
+  margin-right: 1em;
+}
