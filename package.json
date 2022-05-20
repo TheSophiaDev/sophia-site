@@ -1,7 +1,6 @@
 {
   "name": "sophia-site",
   "version": "0.1.0",
-  "type": "module",
   "homepage": "https://the-sophia.dev/",
   "private": true,
   "dependencies": {
