@@ -1,4 +1,4 @@
-const Home = require('./src/Home');
+const index = require('./src/index');
 const http = require('http');
 
-http.createServer(Home).listen(process.env.PORT);
+http.createServer(index).listen(process.env.PORT);
