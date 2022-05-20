@@ -15,7 +15,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/the-sophia.dev">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="skills" element={<Skills />} />
