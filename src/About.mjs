@@ -38,8 +38,8 @@ function About() {
           <div className="About-content container">
               <div className="About-text">
                 <h1>Hello!</h1>
-                <p>My name is Sophia and I am a web developer from Thuringia, Germany. I am passionate about developing websites and applications and have a love for successful design.</p>
-                <p>So far, I am a one-person business with devLogick and work on private projects.</p>
+                <p>My name is Sophia and I am a web developer from Thuringia, Germany. I am passionate about developing websites and applications. I also attach great importance to code quality and a professional design.</p>
+                <p>I am currently employed and have no interest in job offers.</p>
                 <p>In my free time, I like to read, do sports and do some handicraft activities.</p>
                 <p>I am a well-structured person who quickly learns new topics. I especially value good teamwork and reliability.</p>
                 <p className="About-contact">Feel free to <Link to="/contact">contact me</Link>!</p>
