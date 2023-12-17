@@ -1,11 +1,11 @@
 import './Home.css';
 import { Link } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Carousel from 'react-bootstrap/Carousel';
+import Navbar from 'react-bootstrap/Navbar.js';
+import NavDropdown from 'react-bootstrap/NavDropdown.js';
+import Container from 'react-bootstrap/Container.js';
+import Nav from 'react-bootstrap/Nav.js';
+import Carousel from 'react-bootstrap/Carousel.js';
 import Phoenix from './img/Phoenix.svg';
 import Shirt from './img/Shirt.svg';
 import BasicStream from './img/BasicStream.svg';
