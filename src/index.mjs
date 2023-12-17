@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import Home from './Home';
-import Skills from './Skills';
-import About from './About';
-import Contact from './Contact';
-import Legal from './LegalNotice';
-import Privacy from './Privacy';
-import reportWebVitals from './reportWebVitals';
+import Home from './Home.mjs';
+import Skills from './Skills.mjs';
+import About from './About.mjs';
+import Contact from './Contact.mjs';
+import Legal from './LegalNotice.mjs';
+import Privacy from './Privacy.mjs';
+import reportWebVitals from './reportWebVitals.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
