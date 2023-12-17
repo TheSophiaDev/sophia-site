@@ -38,66 +38,53 @@ function Skills() {
             <h1>Skills</h1>
             <div className="Skills-progress">
               <div className="chart">
-                <span>WordPress</span>
+                <span>WordPress & TYPO3</span>
                 <footer>
                   <div data-width="95%" style={{width: "95%"}}></div>
                 </footer>
               </div>
-              <div className="chart">
-                <span>ModX & Drupal</span>
-                <footer>
-                  <div data-width="70%" style={{width: "70%", backgroundColor:"#00EA80"}}></div>
-                </footer>
-              </div>
-              <div className="chart">
-                <span>Docker & Kubernetes</span>
-                <footer>
-                  <div data-width="30%" style={{width: "30%", backgroundColor:"#00D587"}}></div>
-                </footer>
-              </div>
-              <div className="chart">
+            <div className="chart">
                 <span>HTML 5 & CSS 3</span>
                 <footer>
-                  <div data-width="95%" style={{width: "95%", backgroundColor:"#00BF8E"}}></div>
+                  <div data-width="75%" style={{width: "95%", backgroundColor:"#00EA80"}}></div>
                 </footer>
-              </div>
-              <div className="chart">
-                <span>JavaScript</span>
-                <footer>
-                  <div data-width="75%" style={{width: "75%", backgroundColor:"#00AA95"}}></div>
-                </footer>
-              </div>
+            </div>
               <div className="chart">
                 <span>PHP</span>
                 <footer>
-                  <div data-width="82%" style={{width: "82%", backgroundColor:"#1D959C"}}></div>
-                </footer>
-              </div>
-              <div className="chart">
-                <span>Python</span>
-                <footer>
-                  <div data-width="80%" style={{width: "80%", backgroundColor:"#0080A2"}}></div>
+                  <div data-width="70%" style={{width: "70%", backgroundColor:"#00D587"}}></div>
                 </footer>
               </div>
               <div className="chart">
                 <span>MySQL & PostgreSQL</span>
                 <footer>
-                  <div data-width="85%" style={{width: "85%", backgroundColor:"#0060AC"}}></div>
+                  <div data-width="60%" style={{width: "85%", backgroundColor:"#00BF8E"}}></div>
+                </footer>
+              </div>
+              <div className="chart">
+                <span>Pascal & Shell</span>
+                <footer>
+                  <div data-width="60%" style={{width: "80%", backgroundColor:"#00AA95"}}></div>
+                </footer>
+              </div>
+              <div className="chart">
+                <span>Symfony</span>
+                <footer>
+                  <div data-width="30%" style={{width: "30%", backgroundColor:"#1D959C"}}></div>
+                </footer>
+              </div>
+              <div className="chart">
+                <span>JavaScript</span>
+                <footer>
+                  <div data-width="30%" style={{width: "75%", backgroundColor:"#0080A2"}}></div>
                 </footer>
               </div>
               <div className="chart">
                 <span>ReactJS</span>
                 <footer>
-                  <div data-width="40%" style={{width: "40%", backgroundColor:"#0060AC"}}></div>
+                  <div data-width="20%" style={{width: "40%", backgroundColor:"#0060AC"}}></div>
                 </footer>
               </div>
-              <div className="chart">
-                <span>Django</span>
-                <footer>
-                  <div data-width="35%" style={{width: "35%", backgroundColor:"#005FB0"}}></div>
-                </footer>
-              </div>
-
             </div>
           </div>
         </div>
